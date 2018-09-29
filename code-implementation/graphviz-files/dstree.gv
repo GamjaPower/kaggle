@@ -1,0 +1,12 @@
+// Decision Tree
+digraph {
+	Root [label="셀스타그램"]
+	RootL [label=1.0]
+	Root -> RootL
+	RootR [label="짱절미"]
+	RootRL [label=1.0]
+	RootR -> RootRL
+	RootRR [label=0.3333]
+	RootR -> RootRR
+	Root -> RootR
+}
